@@ -7,7 +7,7 @@ function SearchBar({ setLocation }) {
     async function handleSearch() {
 
         try {
-            const url = `http://api.openweathermap.org/geo/1.0/direct?q=${place}&limit=5&appid=${key}`;
+            const url = `https://api.openweathermap.org/geo/1.0/direct?q=${place}&limit=5&appid=${key}`;
 
             const response = await fetch(url);
             const result = await response.json();
