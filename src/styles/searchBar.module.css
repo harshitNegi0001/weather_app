@@ -1,0 +1,28 @@
+.searchBox{
+    width:400px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid black;
+    /* position: relative; */
+    /* top: 5px;
+    left:43vw; */
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.searchBox #searchInput{
+    background-color: transparent;
+    border:none;
+    height: 100%;
+    outline: none;
+    padding: 0 15px;
+    width: 75%;
+    margin-right: 20px;
+}
+.searchBox #icon{
+    width: 25px;
+    /* position: absolute;
+    right: 7%;
+    top: 20%; */
+}
