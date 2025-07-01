@@ -1,7 +1,7 @@
 .container{
     width: 80vw;
     /* border: 2px solid black; */
-    min-height: 100vh;
+    min-height: 50vh;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
