@@ -31,9 +31,9 @@ export function getImage(code) {
         return Cloudy
         case 1100:
         return MostlySunny
-        case 1001:
+        case 1101:
         return PartlyCloudy
-        case 1002:
+        case 1102:
         return MostlyCloudy
         case 2000:
         return Fog
