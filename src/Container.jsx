@@ -22,7 +22,7 @@ function Container({ location,setLoading }) {
             const response = await fetch(url);
             const result = await response.json();
             setWeeklyWeather(result.timelines.daily);
-            console.log(result.timelines.daily);
+            // console.log(result.timelines.daily);
             setLoading(false);
         }
         catch (err) {
