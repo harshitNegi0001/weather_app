@@ -19,14 +19,14 @@ import MostlySunny from "./assets/MostlySunny.webp"
 import PartlyCloudy from "./assets/PartlyCloudy.png"
 import Rain from "./assets/Rain.png"
 import Snow from "./assets/Snow.png"
-import Sunnyday from "./assets/Sunnyday.png"
+import SunnyDay from "./assets/SunnyDay.png"
 import ThunderStorm from "./assets/ThunderStorm.png"
 
 
 export function getImage(code) {
     switch (code) {
         case 1000:
-        return Sunnyday
+        return SunnyDay
         case 1001:
         return Cloudy
         case 1100:
